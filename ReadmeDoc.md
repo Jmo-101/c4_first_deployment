@@ -1,21 +1,30 @@
-#Downloaded files from github repository
-#Uploaded files into new github repo
-#Logged into Jenkins server and created a pipeline
-#Created a pipeline using this new repository
-#Had to generate a Github token to add as credentials
-#Saved credentials to the pipeline 
-#Ran pipeline and it was successful
-#Created elastic beanstalk permissions
-#Created IAM permissions
-#Went into beanstalk to create an application based off the Github Repository
-#Made sure to upload the Github repository to the beanstalk applications
-#Added an availability zone to the application
-#Deployed the application but got an error 
-#After troubleshooting noticed it was an error on the zip file
-#Had to open up the zip file and rezipped it entirely
-#Created a V2 of the application 
-#Included line 12
-#Deployed the application and it ran successfully.
+# Workflow Documentation
+
+## 1. GitHub
+
+- Downloaded files from GitHub repository
+- Uploaded files into a new GitHub repository
+
+## 2. Jenkins
+
+- Logged into Jenkins and created a new pipeline
+- Created a new pipeline using a new repository
+- Generated a new GitHub repository token for Jenkins credentials
+- Saved credentials and ran the pipeline. Success
+
+## 3. Elastic Beanstalk
+
+- Created Elastic Beanstalk permissions
+- Created IAM permissions
+- Went into Elastic Beanstalk to create an application based on the GitHub repository
+- Made sure to upload the GitHub repository to the Beanstalk application
+- Added an availability zone to the application
+
+## 4. Troubleshooting
+
+- Ran into a problem while deploying the application
+- After troubleshooting, noticed it was an error on my part regarding the zip file
+- Created a v2 deployment with a new zipped file, and it ran successfully
 
 
 
